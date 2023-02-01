@@ -1,0 +1,47 @@
+html, body {
+		height:100%;
+}
+
+body {
+		display:flex;
+		flex-direction:column;
+        background-color:#001030;
+        color:#AAAAAA;
+        font-family:monospace;
+        font-size:large;
+}
+p {
+        width:55%;
+}
+
+.stuff {
+		flex: 1 0 auto;
+}
+
+.collapsible {
+		background-color:#471310;
+		color:#AAAAAA;
+		font-family:monospace;
+		font-size:large;
+		cursor:pointer;
+		padding:20px;
+		width:70%;
+		border:none;
+		text-align:left;
+		outline:none;
+}
+
+.active, .collapsible:hover {
+  background-color: #240301;
+}
+
+.content {
+		display:none;
+		overflow:hidden;
+}
+
+.footer {
+		padding:20px;
+		flex-shrink: 0;
+		width:100%;
+}
